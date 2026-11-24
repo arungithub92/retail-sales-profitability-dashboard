@@ -1,0 +1,601 @@
+customer_id,customer_name,segment,region,city
+C0001,Customer 0001,Small Business,North,Delhi
+C0002,Customer 0002,Small Business,North,Jaipur
+C0003,Customer 0003,Corporate,South,Bengaluru
+C0004,Customer 0004,Small Business,South,Bengaluru
+C0005,Customer 0005,Small Business,West,Pune
+C0006,Customer 0006,Small Business,East,Kolkata
+C0007,Customer 0007,Small Business,West,Mumbai
+C0008,Customer 0008,Consumer,South,Bengaluru
+C0009,Customer 0009,Corporate,West,Mumbai
+C0010,Customer 0010,Consumer,South,Bengaluru
+C0011,Customer 0011,Corporate,South,Bengaluru
+C0012,Customer 0012,Corporate,West,Pune
+C0013,Customer 0013,Consumer,East,Kolkata
+C0014,Customer 0014,Corporate,East,Kolkata
+C0015,Customer 0015,Small Business,West,Mumbai
+C0016,Customer 0016,Small Business,West,Pune
+C0017,Customer 0017,Small Business,South,Bengaluru
+C0018,Customer 0018,Small Business,South,Chennai
+C0019,Customer 0019,Consumer,West,Mumbai
+C0020,Customer 0020,Corporate,North,Jaipur
+C0021,Customer 0021,Small Business,West,Pune
+C0022,Customer 0022,Small Business,West,Mumbai
+C0023,Customer 0023,Consumer,East,Kolkata
+C0024,Customer 0024,Consumer,West,Mumbai
+C0025,Customer 0025,Corporate,East,Kolkata
+C0026,Customer 0026,Consumer,West,Pune
+C0027,Customer 0027,Small Business,West,Mumbai
+C0028,Customer 0028,Consumer,East,Kolkata
+C0029,Customer 0029,Corporate,North,Jaipur
+C0030,Customer 0030,Consumer,North,Jaipur
+C0031,Customer 0031,Consumer,West,Pune
+C0032,Customer 0032,Small Business,West,Mumbai
+C0033,Customer 0033,Small Business,West,Pune
+C0034,Customer 0034,Small Business,Central,Bhopal
+C0035,Customer 0035,Corporate,Central,Bhopal
+C0036,Customer 0036,Consumer,West,Mumbai
+C0037,Customer 0037,Consumer,North,Jaipur
+C0038,Customer 0038,Consumer,North,Delhi
+C0039,Customer 0039,Small Business,South,Chennai
+C0040,Customer 0040,Small Business,South,Chennai
+C0041,Customer 0041,Small Business,Central,Bhopal
+C0042,Customer 0042,Corporate,South,Bengaluru
+C0043,Customer 0043,Small Business,Central,Bhopal
+C0044,Customer 0044,Small Business,North,Jaipur
+C0045,Customer 0045,Small Business,West,Pune
+C0046,Customer 0046,Small Business,North,Delhi
+C0047,Customer 0047,Small Business,South,Bengaluru
+C0048,Customer 0048,Small Business,West,Pune
+C0049,Customer 0049,Consumer,East,Kolkata
+C0050,Customer 0050,Corporate,West,Pune
+C0051,Customer 0051,Corporate,South,Chennai
+C0052,Customer 0052,Small Business,North,Delhi
+C0053,Customer 0053,Small Business,West,Pune
+C0054,Customer 0054,Small Business,South,Chennai
+C0055,Customer 0055,Small Business,South,Bengaluru
+C0056,Customer 0056,Small Business,West,Pune
+C0057,Customer 0057,Consumer,West,Mumbai
+C0058,Customer 0058,Consumer,East,Kolkata
+C0059,Customer 0059,Small Business,North,Delhi
+C0060,Customer 0060,Corporate,East,Kolkata
+C0061,Customer 0061,Consumer,North,Delhi
+C0062,Customer 0062,Corporate,East,Kolkata
+C0063,Customer 0063,Consumer,West,Mumbai
+C0064,Customer 0064,Small Business,West,Mumbai
+C0065,Customer 0065,Consumer,South,Bengaluru
+C0066,Customer 0066,Consumer,North,Jaipur
+C0067,Customer 0067,Consumer,South,Chennai
+C0068,Customer 0068,Small Business,North,Jaipur
+C0069,Customer 0069,Corporate,South,Chennai
+C0070,Customer 0070,Consumer,Central,Bhopal
+C0071,Customer 0071,Small Business,West,Mumbai
+C0072,Customer 0072,Corporate,West,Pune
+C0073,Customer 0073,Corporate,East,Kolkata
+C0074,Customer 0074,Consumer,North,Jaipur
+C0075,Customer 0075,Consumer,West,Mumbai
+C0076,Customer 0076,Corporate,South,Bengaluru
+C0077,Customer 0077,Small Business,North,Delhi
+C0078,Customer 0078,Small Business,West,Mumbai
+C0079,Customer 0079,Consumer,West,Mumbai
+C0080,Customer 0080,Small Business,South,Bengaluru
+C0081,Customer 0081,Consumer,North,Delhi
+C0082,Customer 0082,Consumer,South,Bengaluru
+C0083,Customer 0083,Consumer,East,Kolkata
+C0084,Customer 0084,Corporate,West,Mumbai
+C0085,Customer 0085,Consumer,North,Jaipur
+C0086,Customer 0086,Small Business,South,Chennai
+C0087,Customer 0087,Consumer,North,Jaipur
+C0088,Customer 0088,Corporate,North,Jaipur
+C0089,Customer 0089,Consumer,West,Mumbai
+C0090,Customer 0090,Small Business,South,Bengaluru
+C0091,Customer 0091,Corporate,Central,Bhopal
+C0092,Customer 0092,Corporate,Central,Bhopal
+C0093,Customer 0093,Small Business,North,Jaipur
+C0094,Customer 0094,Small Business,North,Delhi
+C0095,Customer 0095,Consumer,South,Bengaluru
+C0096,Customer 0096,Small Business,Central,Bhopal
+C0097,Customer 0097,Consumer,East,Kolkata
+C0098,Customer 0098,Consumer,West,Mumbai
+C0099,Customer 0099,Small Business,West,Mumbai
+C0100,Customer 0100,Consumer,North,Jaipur
+C0101,Customer 0101,Consumer,Central,Bhopal
+C0102,Customer 0102,Corporate,West,Pune
+C0103,Customer 0103,Consumer,West,Mumbai
+C0104,Customer 0104,Small Business,North,Jaipur
+C0105,Customer 0105,Consumer,South,Bengaluru
+C0106,Customer 0106,Consumer,North,Delhi
+C0107,Customer 0107,Consumer,West,Mumbai
+C0108,Customer 0108,Corporate,Central,Bhopal
+C0109,Customer 0109,Consumer,North,Jaipur
+C0110,Customer 0110,Consumer,Central,Bhopal
+C0111,Customer 0111,Corporate,South,Chennai
+C0112,Customer 0112,Corporate,North,Delhi
+C0113,Customer 0113,Corporate,West,Pune
+C0114,Customer 0114,Corporate,West,Pune
+C0115,Customer 0115,Consumer,North,Jaipur
+C0116,Customer 0116,Corporate,West,Mumbai
+C0117,Customer 0117,Consumer,West,Mumbai
+C0118,Customer 0118,Small Business,North,Delhi
+C0119,Customer 0119,Consumer,East,Kolkata
+C0120,Customer 0120,Small Business,North,Delhi
+C0121,Customer 0121,Small Business,North,Jaipur
+C0122,Customer 0122,Consumer,South,Chennai
+C0123,Customer 0123,Consumer,South,Bengaluru
+C0124,Customer 0124,Small Business,South,Bengaluru
+C0125,Customer 0125,Small Business,South,Bengaluru
+C0126,Customer 0126,Corporate,West,Mumbai
+C0127,Customer 0127,Small Business,South,Bengaluru
+C0128,Customer 0128,Small Business,West,Mumbai
+C0129,Customer 0129,Small Business,North,Delhi
+C0130,Customer 0130,Corporate,South,Bengaluru
+C0131,Customer 0131,Corporate,East,Kolkata
+C0132,Customer 0132,Small Business,West,Mumbai
+C0133,Customer 0133,Consumer,East,Kolkata
+C0134,Customer 0134,Corporate,West,Pune
+C0135,Customer 0135,Small Business,South,Chennai
+C0136,Customer 0136,Corporate,West,Pune
+C0137,Customer 0137,Consumer,East,Kolkata
+C0138,Customer 0138,Corporate,North,Delhi
+C0139,Customer 0139,Consumer,South,Bengaluru
+C0140,Customer 0140,Small Business,West,Mumbai
+C0141,Customer 0141,Consumer,West,Pune
+C0142,Customer 0142,Consumer,East,Kolkata
+C0143,Customer 0143,Corporate,West,Mumbai
+C0144,Customer 0144,Consumer,West,Pune
+C0145,Customer 0145,Small Business,North,Jaipur
+C0146,Customer 0146,Small Business,West,Pune
+C0147,Customer 0147,Small Business,North,Delhi
+C0148,Customer 0148,Small Business,West,Pune
+C0149,Customer 0149,Consumer,South,Bengaluru
+C0150,Customer 0150,Consumer,West,Pune
+C0151,Customer 0151,Small Business,South,Bengaluru
+C0152,Customer 0152,Corporate,South,Chennai
+C0153,Customer 0153,Small Business,West,Pune
+C0154,Customer 0154,Small Business,West,Mumbai
+C0155,Customer 0155,Consumer,East,Kolkata
+C0156,Customer 0156,Small Business,West,Pune
+C0157,Customer 0157,Corporate,North,Jaipur
+C0158,Customer 0158,Consumer,North,Delhi
+C0159,Customer 0159,Corporate,Central,Bhopal
+C0160,Customer 0160,Consumer,North,Delhi
+C0161,Customer 0161,Consumer,East,Kolkata
+C0162,Customer 0162,Consumer,West,Pune
+C0163,Customer 0163,Small Business,North,Jaipur
+C0164,Customer 0164,Small Business,Central,Bhopal
+C0165,Customer 0165,Consumer,North,Delhi
+C0166,Customer 0166,Small Business,South,Bengaluru
+C0167,Customer 0167,Small Business,South,Chennai
+C0168,Customer 0168,Corporate,North,Delhi
+C0169,Customer 0169,Corporate,South,Chennai
+C0170,Customer 0170,Consumer,South,Chennai
+C0171,Customer 0171,Corporate,West,Pune
+C0172,Customer 0172,Corporate,North,Delhi
+C0173,Customer 0173,Small Business,West,Mumbai
+C0174,Customer 0174,Small Business,West,Mumbai
+C0175,Customer 0175,Corporate,South,Bengaluru
+C0176,Customer 0176,Small Business,Central,Bhopal
+C0177,Customer 0177,Consumer,South,Chennai
+C0178,Customer 0178,Consumer,South,Chennai
+C0179,Customer 0179,Consumer,Central,Bhopal
+C0180,Customer 0180,Small Business,South,Chennai
+C0181,Customer 0181,Corporate,East,Kolkata
+C0182,Customer 0182,Corporate,West,Mumbai
+C0183,Customer 0183,Small Business,South,Chennai
+C0184,Customer 0184,Corporate,South,Bengaluru
+C0185,Customer 0185,Corporate,North,Delhi
+C0186,Customer 0186,Consumer,West,Mumbai
+C0187,Customer 0187,Corporate,North,Jaipur
+C0188,Customer 0188,Consumer,West,Pune
+C0189,Customer 0189,Consumer,West,Mumbai
+C0190,Customer 0190,Corporate,West,Mumbai
+C0191,Customer 0191,Corporate,East,Kolkata
+C0192,Customer 0192,Corporate,South,Bengaluru
+C0193,Customer 0193,Small Business,East,Kolkata
+C0194,Customer 0194,Small Business,Central,Bhopal
+C0195,Customer 0195,Consumer,East,Kolkata
+C0196,Customer 0196,Corporate,South,Bengaluru
+C0197,Customer 0197,Small Business,South,Chennai
+C0198,Customer 0198,Consumer,West,Pune
+C0199,Customer 0199,Small Business,South,Bengaluru
+C0200,Customer 0200,Corporate,Central,Bhopal
+C0201,Customer 0201,Corporate,East,Kolkata
+C0202,Customer 0202,Corporate,South,Bengaluru
+C0203,Customer 0203,Corporate,West,Mumbai
+C0204,Customer 0204,Small Business,North,Delhi
+C0205,Customer 0205,Consumer,Central,Bhopal
+C0206,Customer 0206,Corporate,West,Mumbai
+C0207,Customer 0207,Consumer,Central,Bhopal
+C0208,Customer 0208,Small Business,East,Kolkata
+C0209,Customer 0209,Small Business,East,Kolkata
+C0210,Customer 0210,Small Business,South,Bengaluru
+C0211,Customer 0211,Small Business,West,Pune
+C0212,Customer 0212,Small Business,West,Pune
+C0213,Customer 0213,Corporate,Central,Bhopal
+C0214,Customer 0214,Small Business,Central,Bhopal
+C0215,Customer 0215,Small Business,West,Pune
+C0216,Customer 0216,Consumer,South,Chennai
+C0217,Customer 0217,Small Business,Central,Bhopal
+C0218,Customer 0218,Small Business,Central,Bhopal
+C0219,Customer 0219,Small Business,South,Chennai
+C0220,Customer 0220,Corporate,West,Pune
+C0221,Customer 0221,Corporate,North,Delhi
+C0222,Customer 0222,Consumer,West,Pune
+C0223,Customer 0223,Small Business,Central,Bhopal
+C0224,Customer 0224,Corporate,East,Kolkata
+C0225,Customer 0225,Corporate,North,Jaipur
+C0226,Customer 0226,Small Business,West,Mumbai
+C0227,Customer 0227,Small Business,North,Jaipur
+C0228,Customer 0228,Small Business,South,Chennai
+C0229,Customer 0229,Corporate,South,Bengaluru
+C0230,Customer 0230,Consumer,East,Kolkata
+C0231,Customer 0231,Small Business,West,Mumbai
+C0232,Customer 0232,Consumer,West,Pune
+C0233,Customer 0233,Consumer,West,Mumbai
+C0234,Customer 0234,Consumer,North,Delhi
+C0235,Customer 0235,Corporate,West,Mumbai
+C0236,Customer 0236,Corporate,South,Bengaluru
+C0237,Customer 0237,Small Business,Central,Bhopal
+C0238,Customer 0238,Small Business,West,Mumbai
+C0239,Customer 0239,Corporate,Central,Bhopal
+C0240,Customer 0240,Consumer,Central,Bhopal
+C0241,Customer 0241,Small Business,South,Chennai
+C0242,Customer 0242,Consumer,North,Delhi
+C0243,Customer 0243,Consumer,Central,Bhopal
+C0244,Customer 0244,Small Business,South,Chennai
+C0245,Customer 0245,Consumer,North,Jaipur
+C0246,Customer 0246,Consumer,West,Mumbai
+C0247,Customer 0247,Consumer,North,Jaipur
+C0248,Customer 0248,Small Business,North,Jaipur
+C0249,Customer 0249,Corporate,East,Kolkata
+C0250,Customer 0250,Small Business,Central,Bhopal
+C0251,Customer 0251,Consumer,North,Jaipur
+C0252,Customer 0252,Corporate,North,Jaipur
+C0253,Customer 0253,Consumer,West,Pune
+C0254,Customer 0254,Small Business,West,Pune
+C0255,Customer 0255,Small Business,North,Jaipur
+C0256,Customer 0256,Corporate,West,Mumbai
+C0257,Customer 0257,Consumer,North,Jaipur
+C0258,Customer 0258,Consumer,West,Pune
+C0259,Customer 0259,Corporate,West,Pune
+C0260,Customer 0260,Small Business,East,Kolkata
+C0261,Customer 0261,Consumer,South,Bengaluru
+C0262,Customer 0262,Consumer,South,Chennai
+C0263,Customer 0263,Small Business,Central,Bhopal
+C0264,Customer 0264,Small Business,South,Chennai
+C0265,Customer 0265,Consumer,West,Mumbai
+C0266,Customer 0266,Corporate,Central,Bhopal
+C0267,Customer 0267,Small Business,East,Kolkata
+C0268,Customer 0268,Corporate,North,Jaipur
+C0269,Customer 0269,Consumer,North,Delhi
+C0270,Customer 0270,Corporate,Central,Bhopal
+C0271,Customer 0271,Small Business,North,Delhi
+C0272,Customer 0272,Corporate,Central,Bhopal
+C0273,Customer 0273,Corporate,North,Delhi
+C0274,Customer 0274,Corporate,West,Pune
+C0275,Customer 0275,Small Business,Central,Bhopal
+C0276,Customer 0276,Corporate,West,Mumbai
+C0277,Customer 0277,Corporate,West,Mumbai
+C0278,Customer 0278,Corporate,Central,Bhopal
+C0279,Customer 0279,Corporate,North,Delhi
+C0280,Customer 0280,Small Business,East,Kolkata
+C0281,Customer 0281,Small Business,Central,Bhopal
+C0282,Customer 0282,Corporate,South,Chennai
+C0283,Customer 0283,Small Business,South,Chennai
+C0284,Customer 0284,Corporate,North,Delhi
+C0285,Customer 0285,Consumer,North,Delhi
+C0286,Customer 0286,Consumer,Central,Bhopal
+C0287,Customer 0287,Consumer,North,Jaipur
+C0288,Customer 0288,Corporate,North,Delhi
+C0289,Customer 0289,Corporate,Central,Bhopal
+C0290,Customer 0290,Corporate,West,Mumbai
+C0291,Customer 0291,Corporate,East,Kolkata
+C0292,Customer 0292,Corporate,Central,Bhopal
+C0293,Customer 0293,Corporate,Central,Bhopal
+C0294,Customer 0294,Corporate,South,Bengaluru
+C0295,Customer 0295,Small Business,North,Delhi
+C0296,Customer 0296,Corporate,North,Delhi
+C0297,Customer 0297,Small Business,West,Mumbai
+C0298,Customer 0298,Small Business,South,Bengaluru
+C0299,Customer 0299,Consumer,North,Delhi
+C0300,Customer 0300,Consumer,West,Mumbai
+C0301,Customer 0301,Small Business,North,Delhi
+C0302,Customer 0302,Consumer,South,Chennai
+C0303,Customer 0303,Corporate,South,Chennai
+C0304,Customer 0304,Small Business,South,Bengaluru
+C0305,Customer 0305,Corporate,West,Mumbai
+C0306,Customer 0306,Corporate,West,Pune
+C0307,Customer 0307,Small Business,South,Chennai
+C0308,Customer 0308,Consumer,South,Bengaluru
+C0309,Customer 0309,Consumer,West,Pune
+C0310,Customer 0310,Corporate,North,Delhi
+C0311,Customer 0311,Corporate,Central,Bhopal
+C0312,Customer 0312,Consumer,West,Mumbai
+C0313,Customer 0313,Consumer,West,Mumbai
+C0314,Customer 0314,Small Business,West,Pune
+C0315,Customer 0315,Small Business,South,Bengaluru
+C0316,Customer 0316,Corporate,North,Delhi
+C0317,Customer 0317,Small Business,Central,Bhopal
+C0318,Customer 0318,Consumer,East,Kolkata
+C0319,Customer 0319,Consumer,East,Kolkata
+C0320,Customer 0320,Corporate,Central,Bhopal
+C0321,Customer 0321,Corporate,South,Bengaluru
+C0322,Customer 0322,Small Business,East,Kolkata
+C0323,Customer 0323,Small Business,North,Jaipur
+C0324,Customer 0324,Corporate,South,Chennai
+C0325,Customer 0325,Small Business,South,Chennai
+C0326,Customer 0326,Small Business,West,Pune
+C0327,Customer 0327,Corporate,North,Jaipur
+C0328,Customer 0328,Small Business,Central,Bhopal
+C0329,Customer 0329,Corporate,West,Pune
+C0330,Customer 0330,Consumer,West,Mumbai
+C0331,Customer 0331,Corporate,West,Pune
+C0332,Customer 0332,Corporate,West,Mumbai
+C0333,Customer 0333,Corporate,Central,Bhopal
+C0334,Customer 0334,Corporate,North,Delhi
+C0335,Customer 0335,Consumer,East,Kolkata
+C0336,Customer 0336,Consumer,North,Jaipur
+C0337,Customer 0337,Corporate,East,Kolkata
+C0338,Customer 0338,Corporate,East,Kolkata
+C0339,Customer 0339,Small Business,West,Pune
+C0340,Customer 0340,Small Business,North,Delhi
+C0341,Customer 0341,Consumer,West,Mumbai
+C0342,Customer 0342,Small Business,West,Mumbai
+C0343,Customer 0343,Corporate,Central,Bhopal
+C0344,Customer 0344,Small Business,West,Mumbai
+C0345,Customer 0345,Small Business,North,Jaipur
+C0346,Customer 0346,Corporate,North,Jaipur
+C0347,Customer 0347,Consumer,North,Delhi
+C0348,Customer 0348,Consumer,West,Pune
+C0349,Customer 0349,Small Business,Central,Bhopal
+C0350,Customer 0350,Corporate,West,Mumbai
+C0351,Customer 0351,Corporate,East,Kolkata
+C0352,Customer 0352,Corporate,East,Kolkata
+C0353,Customer 0353,Corporate,East,Kolkata
+C0354,Customer 0354,Corporate,North,Jaipur
+C0355,Customer 0355,Corporate,West,Pune
+C0356,Customer 0356,Consumer,West,Mumbai
+C0357,Customer 0357,Corporate,West,Mumbai
+C0358,Customer 0358,Small Business,South,Bengaluru
+C0359,Customer 0359,Consumer,South,Chennai
+C0360,Customer 0360,Small Business,West,Mumbai
+C0361,Customer 0361,Corporate,North,Jaipur
+C0362,Customer 0362,Consumer,West,Pune
+C0363,Customer 0363,Corporate,West,Mumbai
+C0364,Customer 0364,Corporate,West,Mumbai
+C0365,Customer 0365,Corporate,South,Chennai
+C0366,Customer 0366,Small Business,North,Delhi
+C0367,Customer 0367,Corporate,South,Chennai
+C0368,Customer 0368,Consumer,North,Delhi
+C0369,Customer 0369,Small Business,West,Pune
+C0370,Customer 0370,Small Business,South,Chennai
+C0371,Customer 0371,Consumer,North,Jaipur
+C0372,Customer 0372,Small Business,North,Delhi
+C0373,Customer 0373,Corporate,West,Pune
+C0374,Customer 0374,Corporate,North,Jaipur
+C0375,Customer 0375,Consumer,East,Kolkata
+C0376,Customer 0376,Corporate,North,Delhi
+C0377,Customer 0377,Consumer,North,Jaipur
+C0378,Customer 0378,Corporate,South,Bengaluru
+C0379,Customer 0379,Consumer,North,Jaipur
+C0380,Customer 0380,Consumer,North,Delhi
+C0381,Customer 0381,Small Business,South,Chennai
+C0382,Customer 0382,Consumer,West,Pune
+C0383,Customer 0383,Consumer,West,Mumbai
+C0384,Customer 0384,Small Business,Central,Bhopal
+C0385,Customer 0385,Small Business,West,Mumbai
+C0386,Customer 0386,Corporate,Central,Bhopal
+C0387,Customer 0387,Corporate,North,Jaipur
+C0388,Customer 0388,Corporate,Central,Bhopal
+C0389,Customer 0389,Small Business,North,Delhi
+C0390,Customer 0390,Consumer,South,Bengaluru
+C0391,Customer 0391,Corporate,West,Mumbai
+C0392,Customer 0392,Consumer,South,Bengaluru
+C0393,Customer 0393,Consumer,West,Mumbai
+C0394,Customer 0394,Consumer,South,Bengaluru
+C0395,Customer 0395,Corporate,North,Delhi
+C0396,Customer 0396,Small Business,North,Jaipur
+C0397,Customer 0397,Corporate,North,Jaipur
+C0398,Customer 0398,Consumer,North,Delhi
+C0399,Customer 0399,Small Business,West,Pune
+C0400,Customer 0400,Small Business,West,Pune
+C0401,Customer 0401,Consumer,North,Jaipur
+C0402,Customer 0402,Corporate,West,Mumbai
+C0403,Customer 0403,Corporate,West,Mumbai
+C0404,Customer 0404,Small Business,South,Bengaluru
+C0405,Customer 0405,Small Business,West,Mumbai
+C0406,Customer 0406,Corporate,South,Chennai
+C0407,Customer 0407,Consumer,South,Chennai
+C0408,Customer 0408,Consumer,North,Delhi
+C0409,Customer 0409,Small Business,West,Pune
+C0410,Customer 0410,Corporate,West,Pune
+C0411,Customer 0411,Corporate,South,Bengaluru
+C0412,Customer 0412,Small Business,West,Pune
+C0413,Customer 0413,Corporate,Central,Bhopal
+C0414,Customer 0414,Corporate,North,Jaipur
+C0415,Customer 0415,Small Business,South,Bengaluru
+C0416,Customer 0416,Corporate,North,Delhi
+C0417,Customer 0417,Small Business,East,Kolkata
+C0418,Customer 0418,Consumer,West,Pune
+C0419,Customer 0419,Consumer,South,Bengaluru
+C0420,Customer 0420,Small Business,North,Delhi
+C0421,Customer 0421,Small Business,West,Pune
+C0422,Customer 0422,Consumer,North,Delhi
+C0423,Customer 0423,Small Business,North,Jaipur
+C0424,Customer 0424,Corporate,North,Jaipur
+C0425,Customer 0425,Small Business,South,Chennai
+C0426,Customer 0426,Small Business,Central,Bhopal
+C0427,Customer 0427,Consumer,North,Jaipur
+C0428,Customer 0428,Corporate,North,Jaipur
+C0429,Customer 0429,Corporate,Central,Bhopal
+C0430,Customer 0430,Small Business,East,Kolkata
+C0431,Customer 0431,Consumer,South,Bengaluru
+C0432,Customer 0432,Corporate,East,Kolkata
+C0433,Customer 0433,Corporate,North,Jaipur
+C0434,Customer 0434,Small Business,Central,Bhopal
+C0435,Customer 0435,Corporate,North,Delhi
+C0436,Customer 0436,Corporate,South,Bengaluru
+C0437,Customer 0437,Corporate,West,Pune
+C0438,Customer 0438,Corporate,South,Bengaluru
+C0439,Customer 0439,Small Business,North,Delhi
+C0440,Customer 0440,Corporate,North,Jaipur
+C0441,Customer 0441,Consumer,North,Delhi
+C0442,Customer 0442,Small Business,East,Kolkata
+C0443,Customer 0443,Small Business,North,Jaipur
+C0444,Customer 0444,Consumer,North,Jaipur
+C0445,Customer 0445,Corporate,West,Mumbai
+C0446,Customer 0446,Corporate,South,Chennai
+C0447,Customer 0447,Small Business,North,Jaipur
+C0448,Customer 0448,Consumer,North,Jaipur
+C0449,Customer 0449,Small Business,North,Delhi
+C0450,Customer 0450,Small Business,West,Mumbai
+C0451,Customer 0451,Corporate,South,Chennai
+C0452,Customer 0452,Small Business,North,Delhi
+C0453,Customer 0453,Consumer,Central,Bhopal
+C0454,Customer 0454,Consumer,West,Mumbai
+C0455,Customer 0455,Consumer,North,Jaipur
+C0456,Customer 0456,Corporate,South,Chennai
+C0457,Customer 0457,Small Business,West,Pune
+C0458,Customer 0458,Corporate,West,Pune
+C0459,Customer 0459,Corporate,North,Jaipur
+C0460,Customer 0460,Corporate,West,Mumbai
+C0461,Customer 0461,Corporate,South,Chennai
+C0462,Customer 0462,Small Business,West,Mumbai
+C0463,Customer 0463,Consumer,South,Chennai
+C0464,Customer 0464,Corporate,West,Pune
+C0465,Customer 0465,Small Business,East,Kolkata
+C0466,Customer 0466,Consumer,West,Pune
+C0467,Customer 0467,Small Business,West,Pune
+C0468,Customer 0468,Small Business,West,Pune
+C0469,Customer 0469,Consumer,North,Jaipur
+C0470,Customer 0470,Small Business,North,Jaipur
+C0471,Customer 0471,Corporate,North,Jaipur
+C0472,Customer 0472,Small Business,East,Kolkata
+C0473,Customer 0473,Corporate,Central,Bhopal
+C0474,Customer 0474,Consumer,East,Kolkata
+C0475,Customer 0475,Small Business,West,Mumbai
+C0476,Customer 0476,Consumer,Central,Bhopal
+C0477,Customer 0477,Consumer,Central,Bhopal
+C0478,Customer 0478,Small Business,East,Kolkata
+C0479,Customer 0479,Small Business,North,Jaipur
+C0480,Customer 0480,Corporate,Central,Bhopal
+C0481,Customer 0481,Corporate,South,Chennai
+C0482,Customer 0482,Consumer,North,Delhi
+C0483,Customer 0483,Consumer,East,Kolkata
+C0484,Customer 0484,Consumer,North,Jaipur
+C0485,Customer 0485,Consumer,North,Jaipur
+C0486,Customer 0486,Corporate,South,Chennai
+C0487,Customer 0487,Consumer,South,Chennai
+C0488,Customer 0488,Corporate,North,Jaipur
+C0489,Customer 0489,Small Business,East,Kolkata
+C0490,Customer 0490,Small Business,Central,Bhopal
+C0491,Customer 0491,Corporate,South,Bengaluru
+C0492,Customer 0492,Corporate,Central,Bhopal
+C0493,Customer 0493,Small Business,North,Jaipur
+C0494,Customer 0494,Small Business,North,Delhi
+C0495,Customer 0495,Consumer,South,Bengaluru
+C0496,Customer 0496,Consumer,West,Pune
+C0497,Customer 0497,Corporate,South,Bengaluru
+C0498,Customer 0498,Small Business,South,Bengaluru
+C0499,Customer 0499,Corporate,South,Bengaluru
+C0500,Customer 0500,Small Business,South,Chennai
+C0501,Customer 0501,Consumer,West,Pune
+C0502,Customer 0502,Corporate,North,Delhi
+C0503,Customer 0503,Corporate,North,Delhi
+C0504,Customer 0504,Corporate,East,Kolkata
+C0505,Customer 0505,Consumer,Central,Bhopal
+C0506,Customer 0506,Small Business,West,Mumbai
+C0507,Customer 0507,Small Business,Central,Bhopal
+C0508,Customer 0508,Consumer,South,Chennai
+C0509,Customer 0509,Consumer,South,Chennai
+C0510,Customer 0510,Small Business,Central,Bhopal
+C0511,Customer 0511,Corporate,West,Mumbai
+C0512,Customer 0512,Consumer,South,Chennai
+C0513,Customer 0513,Small Business,North,Jaipur
+C0514,Customer 0514,Corporate,West,Pune
+C0515,Customer 0515,Small Business,West,Pune
+C0516,Customer 0516,Corporate,North,Delhi
+C0517,Customer 0517,Small Business,West,Pune
+C0518,Customer 0518,Consumer,South,Chennai
+C0519,Customer 0519,Corporate,North,Jaipur
+C0520,Customer 0520,Small Business,West,Pune
+C0521,Customer 0521,Small Business,Central,Bhopal
+C0522,Customer 0522,Corporate,West,Pune
+C0523,Customer 0523,Consumer,West,Pune
+C0524,Customer 0524,Corporate,Central,Bhopal
+C0525,Customer 0525,Consumer,South,Bengaluru
+C0526,Customer 0526,Small Business,Central,Bhopal
+C0527,Customer 0527,Small Business,East,Kolkata
+C0528,Customer 0528,Small Business,West,Pune
+C0529,Customer 0529,Consumer,West,Pune
+C0530,Customer 0530,Corporate,Central,Bhopal
+C0531,Customer 0531,Small Business,North,Delhi
+C0532,Customer 0532,Small Business,North,Delhi
+C0533,Customer 0533,Corporate,North,Jaipur
+C0534,Customer 0534,Small Business,West,Mumbai
+C0535,Customer 0535,Consumer,East,Kolkata
+C0536,Customer 0536,Small Business,West,Mumbai
+C0537,Customer 0537,Small Business,West,Pune
+C0538,Customer 0538,Small Business,South,Chennai
+C0539,Customer 0539,Small Business,South,Bengaluru
+C0540,Customer 0540,Corporate,North,Delhi
+C0541,Customer 0541,Consumer,North,Jaipur
+C0542,Customer 0542,Small Business,East,Kolkata
+C0543,Customer 0543,Consumer,South,Chennai
+C0544,Customer 0544,Corporate,West,Pune
+C0545,Customer 0545,Consumer,Central,Bhopal
+C0546,Customer 0546,Consumer,West,Mumbai
+C0547,Customer 0547,Small Business,East,Kolkata
+C0548,Customer 0548,Consumer,West,Pune
+C0549,Customer 0549,Corporate,West,Pune
+C0550,Customer 0550,Small Business,West,Pune
+C0551,Customer 0551,Consumer,East,Kolkata
+C0552,Customer 0552,Consumer,North,Jaipur
+C0553,Customer 0553,Consumer,South,Chennai
+C0554,Customer 0554,Small Business,Central,Bhopal
+C0555,Customer 0555,Consumer,East,Kolkata
+C0556,Customer 0556,Consumer,Central,Bhopal
+C0557,Customer 0557,Small Business,West,Pune
+C0558,Customer 0558,Corporate,South,Bengaluru
+C0559,Customer 0559,Small Business,East,Kolkata
+C0560,Customer 0560,Small Business,West,Pune
+C0561,Customer 0561,Small Business,Central,Bhopal
+C0562,Customer 0562,Consumer,East,Kolkata
+C0563,Customer 0563,Corporate,West,Mumbai
+C0564,Customer 0564,Small Business,North,Delhi
+C0565,Customer 0565,Small Business,East,Kolkata
+C0566,Customer 0566,Small Business,West,Mumbai
+C0567,Customer 0567,Small Business,South,Bengaluru
+C0568,Customer 0568,Small Business,North,Jaipur
+C0569,Customer 0569,Small Business,West,Pune
+C0570,Customer 0570,Consumer,Central,Bhopal
+C0571,Customer 0571,Consumer,South,Chennai
+C0572,Customer 0572,Corporate,North,Delhi
+C0573,Customer 0573,Consumer,North,Jaipur
+C0574,Customer 0574,Consumer,South,Bengaluru
+C0575,Customer 0575,Corporate,South,Chennai
+C0576,Customer 0576,Corporate,North,Jaipur
+C0577,Customer 0577,Small Business,Central,Bhopal
+C0578,Customer 0578,Corporate,South,Chennai
+C0579,Customer 0579,Corporate,South,Bengaluru
+C0580,Customer 0580,Corporate,Central,Bhopal
+C0581,Customer 0581,Small Business,North,Delhi
+C0582,Customer 0582,Consumer,East,Kolkata
+C0583,Customer 0583,Corporate,North,Jaipur
+C0584,Customer 0584,Corporate,West,Mumbai
+C0585,Customer 0585,Small Business,South,Bengaluru
+C0586,Customer 0586,Small Business,East,Kolkata
+C0587,Customer 0587,Consumer,East,Kolkata
+C0588,Customer 0588,Corporate,Central,Bhopal
+C0589,Customer 0589,Consumer,West,Mumbai
+C0590,Customer 0590,Consumer,North,Jaipur
+C0591,Customer 0591,Small Business,West,Mumbai
+C0592,Customer 0592,Consumer,North,Delhi
+C0593,Customer 0593,Consumer,East,Kolkata
+C0594,Customer 0594,Small Business,South,Chennai
+C0595,Customer 0595,Consumer,West,Mumbai
+C0596,Customer 0596,Small Business,West,Mumbai
+C0597,Customer 0597,Consumer,West,Mumbai
+C0598,Customer 0598,Consumer,East,Kolkata
+C0599,Customer 0599,Corporate,North,Delhi
+C0600,Customer 0600,Consumer,South,Chennai

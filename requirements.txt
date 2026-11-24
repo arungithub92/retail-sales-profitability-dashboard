@@ -1,0 +1,4 @@
+# Dataset generator uses only Python standard library.
+# Optional tools:
+pandas>=2.0
+sqlalchemy>=2.0

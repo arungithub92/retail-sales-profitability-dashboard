@@ -1,0 +1,10 @@
+{
+  "customers": 600,
+  "products": 15,
+  "orders": 6000,
+  "order_lines": 14966,
+  "date_range": [
+    "2024-01-01",
+    "2025-12-31"
+  ]
+}

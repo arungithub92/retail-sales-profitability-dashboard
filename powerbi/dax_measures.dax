@@ -1,0 +1,87 @@
+-- Create a dedicated Date table in Power BI, then mark it as the Date table.
+Date =
+ADDCOLUMNS (
+    CALENDAR ( MIN ( orders[order_date] ), MAX ( orders[order_date] ) ),
+    "Year", YEAR ( [Date] ),
+    "Month Number", MONTH ( [Date] ),
+    "Month", FORMAT ( [Date], "MMM" ),
+    "Year Month", FORMAT ( [Date], "YYYY-MM" ),
+    "Quarter", "Q" & FORMAT ( [Date], "Q" )
+)
+
+-- Base measures. These measures intentionally include Completed orders only.
+Total Sales =
+CALCULATE (
+    SUM ( order_items[sales_amount] ),
+    orders[order_status] = "Completed"
+)
+
+Total Profit =
+CALCULATE (
+    SUM ( order_items[profit] ),
+    orders[order_status] = "Completed"
+)
+
+Total Orders =
+CALCULATE (
+    DISTINCTCOUNT ( orders[order_id] ),
+    orders[order_status] = "Completed"
+)
+
+Units Sold =
+CALCULATE (
+    SUM ( order_items[quantity] ),
+    orders[order_status] = "Completed"
+)
+
+Profit Margin % =
+DIVIDE ( [Total Profit], [Total Sales], 0 )
+
+Average Order Value =
+DIVIDE ( [Total Sales], [Total Orders], 0 )
+
+Gross Sales =
+CALCULATE (
+    SUM ( order_items[gross_sales] ),
+    orders[order_status] = "Completed"
+)
+
+Discount Value =
+[Gross Sales] - [Total Sales]
+
+Discount Rate % =
+DIVIDE ( [Discount Value], [Gross Sales], 0 )
+
+Sales Previous Month =
+CALCULATE ( [Total Sales], DATEADD ( 'Date'[Date], -1, MONTH ) )
+
+Sales MoM Change =
+[Total Sales] - [Sales Previous Month]
+
+Sales MoM Growth % =
+DIVIDE ( [Sales MoM Change], [Sales Previous Month], 0 )
+
+Sales Previous Year =
+CALCULATE ( [Total Sales], SAMEPERIODLASTYEAR ( 'Date'[Date] ) )
+
+Sales YoY Growth % =
+DIVIDE ( [Total Sales] - [Sales Previous Year], [Sales Previous Year], 0 )
+
+Sales YTD =
+TOTALYTD ( [Total Sales], 'Date'[Date] )
+
+Profit YTD =
+TOTALYTD ( [Total Profit], 'Date'[Date] )
+
+Sales Rank by Product =
+RANKX (
+    ALL ( products[product_name] ),
+    [Total Sales],
+    ,
+    DESC,
+    DENSE
+)
+
+-- Optional: use as a visual-level measure to show only completed order performance.
+Completed Order Flag =
+IF ( SELECTEDVALUE ( orders[order_status] ) = "Completed", 1, 0 )
